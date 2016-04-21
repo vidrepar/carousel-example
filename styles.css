@@ -1,0 +1,43 @@
+#carousel-inner {
+    float: left;
+    width: 630px;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+#carousel-ul {
+    position: relative;
+    left: 210px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 9999px;
+    padding-bottom: 10px;
+}
+
+#carousel-ul li {
+    float: left;
+    width: 200px;
+    padding: 0;
+    height: 110px;
+    background: #000;
+    margin: 10px 5px;
+}
+
+#carousel-ul li img{
+    margin-bottom: -4px;
+    cursor: pointer;
+    border: 0;
+}
+
+#left-scroll, #right-scroll{
+    float: left;
+    height: 130px;
+    width:15px;
+    background: #c0c0c0;
+}
+
+#left-scroll img, #right-scroll img{
+    cursor: pointer;
+}
+
